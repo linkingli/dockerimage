@@ -1,5 +1,7 @@
 kraken :https://github.com/uber/kraken
 ```
+
+redis:5.0
 docker tag registry.cn-hangzhou.aliyuncs.com/lilisi/ttg:kraken-tracker gcr.io/uber-container-tools/kraken-tracker:v0.1.1
 docker tag registry.cn-hangzhou.aliyuncs.com/lilisi/ttg:kraken-testfs gcr.io/uber-container-tools/kraken-testfs:v0.1.1
 docker tag registry.cn-hangzhou.aliyuncs.com/lilisi/ttg:kraken-proxy gcr.io/uber-container-tools/kraken-proxy:v0.1.1
