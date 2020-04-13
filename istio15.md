@@ -1,6 +1,7 @@
 ```
 docker.io/istio/operator:1.5.1
 docker.io/istio/kubectl:1.5.1
+docker.io/istio/pilot:1.5.1
 ```
 
 ```
