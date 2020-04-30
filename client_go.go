@@ -1,4 +1,7 @@
 ```
+require(k8s.io/client-go v0.16.8)
+```
+```
 import (
 	"fmt"
 	"io/ioutil"
