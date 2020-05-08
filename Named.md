@@ -89,3 +89,13 @@ curl: (7) Failed to connect to 127.0.0.1 port 15000: Connection refused
 
 
 ```
+hpa
+```
+NAMESPACE      NAME                   REFERENCE                         TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+cloudos-mesh   istio-egressgateway    Deployment/istio-egressgateway    <unknown>/80%   1         5         1          3h
+cloudos-mesh   istio-ingressgateway   Deployment/istio-ingressgateway   <unknown>/80%   1         5         1          3h
+cloudos-mesh   istio-pilot            Deployment/istio-pilot            <unknown>/80%   1         5         1          3h
+cloudos-mesh   istio-policy           Deployment/istio-policy           <unknown>/80%   1         5         1          3h
+cloudos-mesh   istio-telemetry        Deployment/istio-telemetry        <unknown>/80%   1         5         1          3h
+
+```
