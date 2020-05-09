@@ -107,4 +107,17 @@ ip6tables v1.6.0: can't initialize ip6tables table `filter': Table does not exis
 Perhaps ip6tables or your kernel needs to be upgraded.
 
 --allow-privileged=true to k8s apiserver  
+
+
++ ip6tables -F INPUT
+ip6tables v1.6.0: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Perhaps ip6tables or your kernel needs to be upgraded.
++ true
++ ip6tables -A INPUT -m state --state ESTABLISHED -j ACCEPT
+ip6tables v1.6.0: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Perhaps ip6tables or your kernel needs to be upgraded.
++ true
++ ip6tables -A INPUT -j REJECT
+ip6tables v1.6.0: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+
 ```
