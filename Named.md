@@ -121,3 +121,6 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 ip6tables v1.6.0: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
 
 ```
+
+
+https://www.qikqiak.com/post/encrypt-k8s-secrets-with-sealed-secrets/
