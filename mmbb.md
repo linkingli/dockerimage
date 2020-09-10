@@ -12,3 +12,8 @@ COPY conf /conf
 ENTRYPOINT ["/harbor-go-client"]
 CMD ["-h"]
 ```
+
+
+```
+https://github.com/moooofly/harbor-go-client.git
+```
