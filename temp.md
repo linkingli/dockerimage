@@ -122,3 +122,20 @@ require (
 )
 
 ```
+
+```
+golang.org/x/crypto
+golang.org/x/net
+golang.org/x/oauth2
+golang.org/x/sys
+golang.org/x/time
+golang.org/x/text
+google.golang.org/appengine
+google.golang.org/genproto
+google.golang.org/grpc
+vbom.ml/util
+gopkg.in/inf.v0
+gopkg.in/square/go-jose.v2
+gopkg.in/yaml.v2
+k8s.io/kubernetes
+```
